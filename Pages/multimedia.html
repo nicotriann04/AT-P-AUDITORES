@@ -6,6 +6,8 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Multimedia contable</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-1BmE4kWBq78iYhFldvKuhfTAU6auU8tT94WrHftjDbrCEXSU1oBoqyl2QvZ6jIW3" crossorigin="anonymous">
     <link rel="stylesheet" href="../CSS/style.css">
     <link rel="shortcut icon" href="../Imagenes-pages/img/Atp.png"><!-- icono empresa -->
 </head>
@@ -15,30 +17,85 @@
         <h1>AT&P AUDITORES</h1>
     </header>
 
-    <nav>
-        <div class="links1">
-            <ul>
-                <li> <a href="../index.html" target="_self">Home</a> </li>
-                <li> <a href="servicios.html" target="_self">Servicios</a> </li>
-                <li> <a href="multimedia.html" target="_self">Multimedia</a> </li>
-                <li> <a href="formulario.html" target="_self">Formulario contacto</a> </li>
-                <li> <a href="links.html" target="_self">Links</a> </li>
-            </ul>
-        </div>
-
-        <div class="links2">
-            <ul>
-                <li>Registro</li>
-                <li>Suscripciones</li>
-            </ul>
+    <nav class="navbar navbar-expand-lg navbar-light bg-light">
+        <div class="container-fluid">
+            <a class="navbar-brand" href="#">Menu</a>
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav"
+                aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarNav">
+                <ul class="navbar-nav">
+                    <li class="nav-item">
+                        <button type="button" class="btn btn-light1"><a href="../index.html"
+                                target="_self">Home</a></button>
+                    </li>
+                    <li class="nav-item">
+                        <button type="button" class="btn btn-light1"><a href="servicios.html"
+                                target="_self">Servicios</a></button>
+                    </li>
+                    <li class="nav-item">
+                        <button type="button" class="btn btn-light1"><a href="multimedia.html"
+                                target="_self">Multimedia</a></button>
+                    </li>
+                    <li class="nav-item">
+                        <button type="button" class="btn btn-light1"><a href="formulario.html"
+                                target="_self">Contacto</a></button>
+                    </li>
+                    <li class="nav-item">
+                        <button type="button" class="btn btn-light1"><a href="links.html" target="_self">Sitios de
+                                Interes</a></button>
+                    </li>
+                </ul>
+            </div>
         </div>
     </nav>
+    </nav>
+
+
+    <div id="carouselExampleIndicators" class="carousel slide" data-bs-ride="carousel">
+        <div class="carousel-indicators">
+           <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="0" class="active"
+              aria-current="true" aria-label="Slide 1"></button>
+           <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="1"
+              aria-label="Slide 2"></button>
+           <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="2"
+              aria-label="Slide 3"></button>
+        </div>
+        <div class="carousel-inner">
+           <div class="carousel-item active">
+              <img src="../Imagenes-pages/img/Auditoria1.jpg" class="d-block w-100" alt="DIAN">
+           </div>
+           <div class="carousel-item">
+              <img src="../Imagenes-pages/img/Atrio.jpg" class="d-block w-100" alt="IVA">
+           </div>
+           <div class="carousel-item">
+              <img src="../Imagenes-pages/img/Auditoria2.jpg" class="d-block w-100" alt="Exogena">
+           </div>
+           <div class="carousel-item">
+              <img src="../Imagenes-pages/img/Auditoria3.jpg" class="d-block w-100" alt="Exogena">
+           </div>
+           <div class="carousel-item">
+              <img src="../Imagenes-pages/img/Bogotá.jpg" class="d-block w-100" alt="Exogena">
+           </div>
+        </div>
+        <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleIndicators"
+           data-bs-slide="prev">
+           <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+           <span class="visually-hidden">Previous</span>
+        </button>
+        <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleIndicators"
+           data-bs-slide="next">
+           <span class="carousel-control-next-icon" aria-hidden="true"></span>
+           <span class="visually-hidden">Next</span>
+        </button>
+     </div>
 
     <h2>Pagina inversionistas AT&P Auditores</h2>
 
     <div class="multimedia">
         <a href="https://atp-auditores.negocio.site?copy" target="_blank">
-            <img src="../Imagenes-pages/img/Atp.png" alt="AT&P AUDITORES">
+            <img src="../Imagenes-pages/img/Atp.png" class="img-fluid" alt="AT&P AUDITORES">
         </a>
     </div>
 
@@ -82,11 +139,15 @@
         </a>
 
 
-        <a href="https://www.instagram.com/atpauditores/" target="blank"> <img src="../Imagenes-pages/img/insta-icon.png"
-                alt="instagram" width="70" height="70">
+        <a href="https://www.instagram.com/atpauditores/" target="blank"> <img
+                src="../Imagenes-pages/img/insta-icon.png" alt="instagram" width="70" height="70">
         </a>
 
     </footer>
+
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.bundle.min.js"
+        integrity="sha384-ka7Sk0Gln4gmtz2MlQnikT1wXgYsOg+OMhuP+IlRH9sENBO0LRn5q+8nbTov4+1p" crossorigin="anonymous">
+    </script>
 
 </body>
 

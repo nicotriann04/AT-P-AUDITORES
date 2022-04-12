@@ -6,6 +6,8 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Links</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-1BmE4kWBq78iYhFldvKuhfTAU6auU8tT94WrHftjDbrCEXSU1oBoqyl2QvZ6jIW3" crossorigin="anonymous">
     <link rel="stylesheet" href="../CSS/style.css">
 </head>
 
@@ -14,95 +16,141 @@
         <h1>AT&P AUDITORES</h1>
     </header>
 
-    <nav>
-        <div class="links1">
-            <ul>
-                <li> <a href="../index.html" target="_self">Home</a> </li>
-                <li> <a href="servicios.html" target="_self">Servicios</a> </li>
-                <li> <a href="multimedia.html" target="_self">Multimedia</a> </li>
-                <li> <a href="formulario.html" target="_self">Formulario contacto</a> </li>
-                <li> <a href="links.html" target="_self">Links</a> </li>
-            </ul>
-        </div>
-
-        <div class="links2">
-            <ul>
-                <li>Registro</li>
-                <li>Suscripciones</li>
-            </ul>
+    <nav class="navbar navbar-expand-lg navbar-light bg-light">
+        <div class="container-fluid">
+            <a class="navbar-brand" href="#">Menu</a>
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav"
+                aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarNav">
+                <ul class="navbar-nav">
+                    <li class="nav-item">
+                        <button type="button" class="btn btn-light1"><a href="../index.html"
+                                target="_self">Home</a></button>
+                    </li>
+                    <li class="nav-item">
+                        <button type="button" class="btn btn-light1"><a href="servicios.html"
+                                target="_self">Servicios</a></button>
+                    </li>
+                    <li class="nav-item">
+                        <button type="button" class="btn btn-light1"><a href="multimedia.html"
+                                target="_self">Multimedia</a></button>
+                    </li>
+                    <li class="nav-item">
+                        <button type="button" class="btn btn-light1"><a href="formulario.html"
+                                target="_self">Contacto</a></button>
+                    </li>
+                    <li class="nav-item">
+                        <button type="button" class="btn btn-light1"><a href="links.html" target="_self">Sitios de
+                                Interes</a></button>
+                    </li>
+                </ul>
+            </div>
         </div>
     </nav>
 
     <!-- Links a paginas relacionadas del mismo tema -->
-    <h2>Paginas relacionadas</h2>
+    <h2>Sitios de interés</h2>
 
 
-    <h3>Contabilidad</h3>
-
-    <div class="links-externos">
-        <a href="https://www.gerencie.com/" target="blank"> <img src="../Imagenes-pages/links/Gerencie.PNG"
-                alt="instagram" width="auto" height="auto">
-        </a>
-
+    <div class="row row-cols-1 row-cols-md-3 g-4">
+        <div class="col">
+            <div class="card h-100">
+                <img src="../Imagenes-pages/links/Gerencie.PNG" class="card-img-top" alt="...">
+                <div class="card-body">
+                    <h5 class="card-title">Servicios de consultoria y conocimiento tecnico contable</h5>
+                    <button type="button" class="btn btn-light1"><a href="https://www.gerencie.com/" target="_blank">ir
+                            a
+                            pagina</a></button>
+                </div>
+            </div>
+        </div>
+        <div class="col">
+            <div class="card h-100">
+                <img src="../Imagenes-pages/links/Actualicese.PNG" class="card-img-top" alt="...">
+                <div class="card-body">
+                    <h5 class="card-title">Biblioteca contable</h5>
+                    <button type="button" class="btn btn-light1"><a href="https://actualicese.com/" target="_blank">ir a
+                            pagina</a></button>
+                </div>
+            </div>
+        </div>
+        <div class="col">
+            <div class="card h-100">
+                <img src="../Imagenes-pages/links/Consultorcontable.PNG" class="card-img-top" alt="...">
+                <div class="card-body">
+                    <h5 class="card-title">Actualidad tributaria</h5>
+                    <button type="button" class="btn btn-light1"><a href="https://www.consultorcontable.com/"
+                            target="_blank">ir a
+                            pagina</a></button>
+                </div>
+            </div>
+        </div>
+        <div class="col">
+            <div class="card h-100">
+                <img src="../Imagenes-pages/links/EY.PNG" class="card-img-top" alt="...">
+                <div class="card-body">
+                    <h5 class="card-title">Ernst & Young</h5>
+                    <button type="button" class="btn btn-light1"><a href="https://www.ey.com/es_co" target="_blank">ir a
+                            pagina</a></button>
+                </div>
+            </div>
+        </div>
+        <div class="col">
+            <div class="card h-100">
+                <img src="../Imagenes-pages/links/PWC.PNG" class="card-img-top" alt="...">
+                <div class="card-body">
+                    <h5 class="card-title">Price water house coopers</h5>
+                    <button type="button" class="btn btn-light1"><a href="https://www.pwc.com/co/es.html"
+                            target="_blank">ir a
+                            pagina</a></button>
+                </div>
+            </div>
+        </div>
+        <div class="col">
+            <div class="card h-100">
+                <img src="../Imagenes-pages/links/KPMG.PNG" class="card-img-top" alt="...">
+                <div class="card-body">
+                    <h5 class="card-title">KPMG</h5>
+                    <button type="button" class="btn btn-light1"><a href="https://home.kpmg/co/es/home.html"
+                            target="_blank">ir a
+                            pagina</a></button>
+                </div>
+            </div>
+        </div>
+        <div class="col">
+            <div class="card h-100">
+                <img src="../Imagenes-pages/links/DELOITTE.PNG" class="card-img-top" alt="...">
+                <div class="card-body">
+                    <h5 class="card-title">Deloitte</h5>
+                    <button type="button" class="btn btn-light1"><a href="https://www2.deloitte.com/co/es.html"
+                            target="_blank">ir a
+                            pagina</a></button>
+                </div>
+            </div>
+        </div>
+        <div class="col">
+            <div class="card h-100">
+                <img src="../Imagenes-pages/links/ASTAF.PNG" class="card-img-top" alt="...">
+                <div class="card-body">
+                    <h5 class="card-title">Astaf</h5>
+                    <button type="button" class="btn btn-light1"><a href="https://astaf.com/" target="_blank">ir a
+                            pagina</a></button>
+                </div>
+            </div>
+        </div>
+        <div class="col">
+            <div class="card h-100">
+                <img src="../Imagenes-pages/links/EXCEL TOTAL.PNG" class="card-img-top" alt="...">
+                <div class="card-body">
+                    <button type="button" class="btn btn-light1"><a href="https://exceltotal.com/" target="_blank">ir a
+                            pagina</a></button>
+                </div>
+            </div>
+        </div>
     </div>
 
-
-    <div class="links-externos">
-
-        <a href="https://actualicese.com/" target="blank"> <img src="../Imagenes-pages/links/Actualicese.PNG"
-                alt="instagram" width="auto" height="auto">
-        </a>
-
-    </div>
-
-
-    <h3>Firmas de Auditoria</h3>
-
-    <div class="links-externos">
-        <a href="https://www.ey.com/es_co" target="blank"> <img src="../Imagenes-pages/links/EY.PNG" alt="instagram"
-                width="auto" height="auto">
-        </a>
-    </div>
-
-    <div class="links-externos">
-        <a href="https://www.pwc.com/co/es.html" target="blank"> <img src="../Imagenes-pages/links/PWC.PNG"
-                alt="instagram" width="auto" height="auto">
-        </a>
-    </div>
-
-    <div class="links-externos">
-        <a href="https://home.kpmg/co/es/home.html" target="blank"> <img src="../Imagenes-pages/links/KPMG.PNG"
-                alt="instagram" width="auto" height="auto">
-        </a>
-    </div>
-
-    <div class="links-externos">
-        <a href="https://www2.deloitte.com/co/es.html" target="blank"> <img src="../Imagenes-pages/links/DELOITTE.PNG"
-                alt="instagram" width="auto" height="auto">
-        </a>
-    </div>
-
-    <div class="links-externos">
-        <a href="https://astaf.com/" target="blank"> <img src="../Imagenes-pages/links/ASTAF.PNG" alt="instagram"
-                width="auto" height="auto">
-        </a>
-    </div>
-
-    <div class="links-externos">
-        <a href="https://actualicese.com//" target="blank"> <img src="../Imagenes-pages/links/Actualicese.PNG"
-                alt="instagram" width="auto" height="auto">
-        </a>
-    </div>
-
-    <h3>Excel</h3>
-
-    <div class="links-externos">
-        <a href="https://exceltotal.com/" target="blank"> <img src="../Imagenes-pages/links/EXCEL TOTAL.PNG"
-                alt="instagram" width="auto" height="auto">
-        </a>
-    </div>
-
-    <div></div>
 
     <footer>
         <div class="links3">
@@ -121,12 +169,16 @@
 
 
 
-        <a href="https://www.instagram.com/atpauditores/" target="blank"> <img src="../Imagenes-pages/img/insta-icon.png"
-                alt="instagram" width="70" height="70">
+        <a href="https://www.instagram.com/atpauditores/" target="blank"> <img
+                src="../Imagenes-pages/img/insta-icon.png" alt="instagram" width="70" height="70">
         </a>
 
 
     </footer>
+
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.bundle.min.js"
+        integrity="sha384-ka7Sk0Gln4gmtz2MlQnikT1wXgYsOg+OMhuP+IlRH9sENBO0LRn5q+8nbTov4+1p" crossorigin="anonymous">
+    </script>
 
 </body>
 
